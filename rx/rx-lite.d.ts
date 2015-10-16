@@ -152,6 +152,7 @@ declare module Rx {
 		currentThread: ICurrentThreadScheduler;
                 default: IScheduler; // alias for Scheduler.timeout
 		timeout: IScheduler;
+		requestAnimationFrame: IScheduler;
 	}
 
 	export var Scheduler: SchedulerStatic;
